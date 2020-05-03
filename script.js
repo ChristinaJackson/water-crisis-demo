@@ -22,11 +22,9 @@ function callback() {
 }
 
 const element = document.getElementsByTagName('SECTION')
-console.log(
-  ScrollSnap)
-const snapObject = ScrollSnap(element, snapConfig)
+const snapObject = new ScrollSnap(element, snapConfig)
 // 
-// snapObject.bind(callback)
+snapObject.bind(callback)
 
 // unbind the element
 // snapObject.unbind();

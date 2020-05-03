@@ -1,5 +1,5 @@
-// import * as ScrollSnap from '/node_modules/scroll-snap/dist/index.js'
-import ScrollSnap from 'scroll-snap'
+import * as ScrollSnap from '/node_modules/scroll-snap/dist/index.js'
+// import ScrollSnap from 'scroll-snap'
 // import * as ScrollSnap from '/node_modules/scroll-snap/dist/esm/index.js'
 // import {ScrollSnap} from '/node_modules/scroll-snap/dist/esm/index.js'
 

@@ -153,9 +153,7 @@ p, li{
 
 /* Mobile Layout */
 html {
-    /* Apparently scrollsnap doesn't work on body */
     scroll-snap-type: y mandatory; 
-    /* scroll-snap-type: y proximity; */  
 
 }
 
@@ -176,7 +174,6 @@ header {
 }
 section{
     margin: auto;
-    /* text-align: justify; */
 }
 .supportSection{
     display: flex;
@@ -254,6 +251,7 @@ section, header
     flex-direction: column;
     height: 100vh;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .vh-exempt {
@@ -280,8 +278,11 @@ section, header
 @media only screen and (min-width: 767px) {
     
     section, header, footer, .vh-exempt {
+    scroll-snap-align: start;
+
         overflow-y: scroll;
-        scroll-snap-type: y mandatory;
+        /* scroll-snap-type: y mandatory; */
+        scroll-snap-stop: always;
         scroll-snap-points-y: repeat(300px);
         height: 100vh;
     }

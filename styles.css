@@ -206,6 +206,12 @@ button:hover {
     cursor: pointer;
     transition: all .2s ease-out;
 }
+header i.fas.fa-chevron-down.intro-arrow{
+    position: absolute;
+    /* margin: 3rem; */
+    bottom: 2.262rem;
+    /* right: 2.262rem; */
+}
 
 li {
     margin-top: 0.4rem;
@@ -278,10 +284,7 @@ section, header
 @media only screen and (min-width: 767px) {
     
     section, header, footer, .vh-exempt {
-    scroll-snap-align: start;
-
-        overflow-y: scroll;
-        /* scroll-snap-type: y mandatory; */
+        scroll-snap-align: center;
         scroll-snap-stop: always;
         scroll-snap-points-y: repeat(300px);
         height: 100vh;

@@ -352,3 +352,10 @@ i.fas.fa-chevron-down, i.fas.fa-chevron-up{
 a.page-nav-link {
     text-align: center;
 }
+button a{
+    color: var(--actionColor);
+    text-decoration: none;
+}
+button a:hover{
+    color: #f6f6f6;
+}

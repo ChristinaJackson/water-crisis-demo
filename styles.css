@@ -207,8 +207,14 @@ button:hover {
     cursor: pointer;
     transition: all .2s ease-out;
 }
-header i.fas.fa-chevron-down.intro-arrow{
+ i.fas.fa-chevron-down.intro-arrow{
     position: absolute;
+
+}
+footer a.bottom-arrow i{
+    margin-top: 5rem;
+    position: relative;
+
 }
 
 li {
@@ -277,6 +283,7 @@ section, header
     border-radius: 10px;
     box-shadow: 1px 1px 4px 0px  rgba(0,0,0,0.3);
 }
+
 /* Desktop */
 
 @media only screen and (min-width: 767px) {
@@ -332,12 +339,12 @@ section, header
 }
 
 
-a i.fas.fa-chevron-down{
+a i.fas.fa-chevron-down, i.fas.fa-chevron-up{
     color: white;
     text-align: center;
 
 }
-i.fas.fa-chevron-down{
+i.fas.fa-chevron-down, i.fas.fa-chevron-up{
     text-align: center;
 }
 a.page-nav-link {

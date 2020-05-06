@@ -194,7 +194,7 @@ button {
     position: fixed;
     bottom: 2.262rem;
     right: 2.262rem;
-    padding: 1rem;
+    padding: 0.5rem;
     border: 4px solid var(--actionColor);
     color: var(--actionColor);
     transition: all .5s ease-out;

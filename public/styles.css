@@ -176,6 +176,9 @@ header {
 section{
     margin: auto;
 }
+#hope h2{
+    margin-bottom: 0.2rem !important;
+}
 .supportSection{
     display: flex;
     flex-direction: column;
@@ -252,6 +255,7 @@ li a:hover {
 
 #pictures {
     height:auto;
+    object-fit: cover;
 }
 
 section, header
@@ -288,7 +292,7 @@ section, header
 
 /* Desktop */
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 800px) {
     
     section, header, footer, .vh-exempt {
         scroll-snap-align: center;
@@ -335,7 +339,7 @@ section, header
     }
 
     .footerNav:first-child{
-        padding-left: 10px;
+        padding-left: 0.5rem;
     }
   
 }
